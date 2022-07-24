@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -16,76 +17,81 @@
     <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
-    
-<!-- header section starts  -->
 
-<header class="header">
+    <!-- header section starts  -->
 
-    <a href="#" class="logo"><img src="images/logo.png" alt=""></a>
+    <header class="header">
+        <nav class="navbar">
+            <a href="#">
+                <marquee width="100%" direction="left">
+                    This is a sample scrolling text that has scrolls texts to right.
+                </marquee>
+            </a>
+        </nav>
+        <div class="logoContainer">
+            <a href="#" class="logo"><img src="images/logo.svg" alt=""></a>
+            <a href="#" class="button"><img src="images/log-in.png" alt=""> CONNEXION </a>
+        </div>
+    </header>
 
-    <nav class="navbar">
-        <a href="#">
-            <marquee width="300%" direction="left" >
-            This is a sample scrolling text that has scrolls texts to right.
-            </marquee>
-        </a>
-    </nav>
+    <!-- header section ends -->
 
-</header>
+    <!-- home section starts  -->
 
-<!-- header section ends -->
+    <section class="home" id="home">
 
-<!-- home section starts  -->
+        <div class="swiper home-slider">
 
-<section class="home" id="home">
+            <div class="swiper-wrapper">
 
-    <div class="swiper home-slider">
-
-        <div class="swiper-wrapper">
-
-            <div class="swiper-slide fade">
-                <div class="box" style="background: url(images/home-bg-1.jpg) no-repeat;">
-                    <div class="content">
-                        <h3>exploring</h3>
-                        <span>never stop</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
+                <div class="swiper-slide fade">
+                    <div class="box" style="background: url(images/home-bg-1.jpg) no-repeat;">
+                        <div class="content">
+                            <h3>exploring</h3>
+                            <span>never stop</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta
+                                consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="swiper-slide fade">
-                <div class="box second" style="background: url(images/home-bg-2.jpg) no-repeat;">
-                    <div class="content">
-                        <h3>amazing</h3>
-                        <span>make tour</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
+                <div class="swiper-slide fade">
+                    <div class="box second" style="background: url(images/home-bg-2.jpg) no-repeat;">
+                        <div class="content">
+                            <h3>amazing</h3>
+                            <span>make tour</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta
+                                consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
+                        </div>
                     </div>
                 </div>
-            </div>
 
-            <div class="swiper-slide fade">
-                <div class="box" style="background: url(images/home-bg-3.jpg) no-repeat;">
-                    <div class="content">
-                        <h3>new world</h3>
-                        <span>explore the</span>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
+                <div class="swiper-slide fade">
+                    <div class="box" style="background: url(images/home-bg-3.jpg) no-repeat;">
+                        <div class="content">
+                            <h3>new world</h3>
+                            <span>explore the</span>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit unde ex molestias soluta
+                                consequatur saepe aliquam, excepturi delectus consequuntur minus!</p>
+                        </div>
                     </div>
                 </div>
+
             </div>
+
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
 
         </div>
+    </section>
 
-        <div class="swiper-button-next"></div>
-        <div class="swiper-button-prev"></div>
+    <script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
 
-    </div>
-</section>
-
-<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
-
-<!-- custom js file link  -->
-<script src="js/script.js"></script>
+    <!-- custom js file link  -->
+    <script src="js/script.js"></script>
 
 </body>
+
 </html>
