@@ -149,7 +149,7 @@ marquee {
     line-height: 2;
     color: #10221b;
     font-size: 1.5rem;
-    padding: 1rem 0;
+    padding: 1rem 0;  
 }
 
 .swiper-button-next::after,
